@@ -10,10 +10,8 @@ function App() {
   return (
     <div className="App">
       <Router history={history} >
-        <div className="App-header">
-          <Navbar />
-          <Routes />
-        </div>
+        <Navbar />
+        <Routes />
       </Router>
     </div>
   );
