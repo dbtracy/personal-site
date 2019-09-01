@@ -13,6 +13,8 @@ const useStyles = makeStyles(theme => ({
     marginRight: theme.spacing(2)
   },
   title: {
+    display: "flex",
+    justifyContent: "left",
     flexGrow: 1
   }
 }))
@@ -22,9 +24,9 @@ export default function Navbar() {
   return (
     <div className={classes.root}>
       <AppBar position="static">
-        <Toolbar>
+        <Toolbar className="Navbar" style={{ minHeight: 40 }}>
+          <Typography variant="h6" className={classes.title}>Dan Tracy</Typography>
           <div>
-            <Typography variant="h6" className={classes.title}>Dan Tracy</Typography>
             <Button>
               <Link to="/">Home</Link>
             </Button>
@@ -37,6 +39,6 @@ export default function Navbar() {
           </div>
         </Toolbar>
       </AppBar>
-    </div>
+    </div >
   )
 }

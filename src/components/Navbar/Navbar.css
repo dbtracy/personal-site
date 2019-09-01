@@ -1,4 +1,6 @@
 .Navbar {
   text-align: center;
-  background-color: antiquewhite
+  background-color: antiquewhite;
+  min-height: 5%;
+  height: 5%
 }
