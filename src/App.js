@@ -1,4 +1,5 @@
 import React from 'react';
+import { Router } from 'react-router-dom'
 import './App.css';
 // import Home from './components/Home'
 import Navbar from './components/Navbar'
@@ -7,10 +8,10 @@ import Routes from './components/Routes'
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <Router history={history}>
         <Navbar />
         <Routes />
-      </header>
+      </Router>
     </div>
   );
 }
