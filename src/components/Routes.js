@@ -1,9 +1,15 @@
 import React, { Component } from 'react'
+import { Route, Switch, Redirect } from 'react-router-dom'
+
+import Home from './Home'
 
 export default class Routes extends Component {
   render() {
     return (
-      <div></div>
+      <Switch>
+        <Route exact path="/" component={Home} />
+        <Redirect to="/" />
+      </Switch>
     )
   }
 }

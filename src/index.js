@@ -9,12 +9,6 @@ import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <BrowserRouter>
-    <div className="bg">
-      <Navbar />
-      <Switch>
-        <Route exact path="/" component={App} />
-      </Switch>
-    </div>
     <App />
   </BrowserRouter>,
   document.getElementById('root')
