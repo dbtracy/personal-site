@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import './Navbar.css'
 
 // MATERIAL-UI IMPORTS
-import { AppBar, Toolbar, makeStyles, Button } from '@material-ui/core/'
+import { AppBar, Toolbar, makeStyles, Button, Typography } from '@material-ui/core/'
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -24,6 +24,7 @@ export default function Navbar() {
       <AppBar position="static">
         <Toolbar>
           <div>
+            <Typography variant="h6" className={classes.title}>Dan Tracy</Typography>
             <Button>
               <Link to="/">Home</Link>
             </Button>
