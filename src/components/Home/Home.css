@@ -1,0 +1,10 @@
+.dan-basic-info {
+  padding-top: 4%;
+  background-color: antiquewhite;
+  padding-bottom: 3%
+}
+
+.headshot {
+  border-radius: 50%;
+  height: 100px;
+}
