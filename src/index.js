@@ -1,15 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Switch, Route } from 'react-router'
-import { BrowserRouter, Link } from 'react-router-dom'
+import { BrowserRouter } from 'react-router-dom'
 import './index.css';
 import App from './App';
+import Navbar from './components/Navbar'
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <BrowserRouter>
     <div className="bg">
-      <Link to="/">Return Home</Link>
+      <Navbar />
       <Switch>
         <Route exact path="/" component={App} />
       </Switch>
