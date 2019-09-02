@@ -1,7 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import './Navbar.css'
-import Projects from '../Projects/Projects'
 
 // MATERIAL-UI IMPORTS
 import { AppBar, Toolbar, makeStyles, Button, Typography } from '@material-ui/core/'
