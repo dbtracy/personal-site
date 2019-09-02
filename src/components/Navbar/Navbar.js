@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import './Navbar.css'
+import Projects from '../Projects/Projects'
 
 // MATERIAL-UI IMPORTS
 import { AppBar, Toolbar, makeStyles, Button, Typography } from '@material-ui/core/'
@@ -19,6 +20,10 @@ const useStyles = makeStyles(theme => ({
   }
 }))
 
+const AdapterLink = React.forwardRef((props, ref) => (
+  <Link innerRef={ref} {...props} />
+))
+
 export default function Navbar() {
   const classes = useStyles();
   return (
@@ -26,16 +31,22 @@ export default function Navbar() {
       <AppBar position="static">
         <Toolbar className="Navbar" style={{ minHeight: 40 }}>
           <Typography variant="h6" className={classes.title}>Dan Tracy</Typography>
-          <div>
-            <Button>
-              <Link to="/">Home</Link>
-            </Button>
-            <Button>
-              <Link to="/projects">Projects</Link>
-            </Button>
-            <Button>
-              <Link to="/bio">Bio</Link>
-            </Button>
+          <div className="navbar-btns">
+            <div>
+              <Button variant="contained" component={AdapterLink} to="/">
+                Home
+              </Button>
+            </div>
+            <div>
+              <Button variant="contained" component={AdapterLink} to="/projects">
+                Projects
+              </Button>
+            </div>
+            <div>
+              <Button variant="contained" component={AdapterLink} to="/bio">
+                Bio
+              </Button>
+            </div>
           </div>
         </Toolbar>
       </AppBar>
