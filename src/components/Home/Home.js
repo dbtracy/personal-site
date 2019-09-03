@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import './Home.css'
-import pic from './headshot.png'
+import pic from './headshot.square.png'
 
 export default class Home extends Component {
   render() {
