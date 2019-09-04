@@ -1,7 +1,12 @@
 .dan-basic-info {
   padding-top: 4%;
   background-color: #f5f8fa;
-  padding-bottom: 3%
+  padding-bottom: 3%;
+}
+
+.headshot-border {
+  border-color: black;
+  border: 5px
 }
 
 .headshot {

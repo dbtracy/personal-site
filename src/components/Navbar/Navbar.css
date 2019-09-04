@@ -1,7 +1,10 @@
 .Navbar {
   text-align: center;
-  background-color: rgb(83, 141, 218);
+  background-color: white;
   min-height: 5%;
+
+  border-bottom: 0em;
+  border-bottom-color: black;
 }
 
 .navbar-btns {

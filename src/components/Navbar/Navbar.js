@@ -26,29 +26,29 @@ const AdapterLink = React.forwardRef((props, ref) => (
 export default function Navbar() {
   const classes = useStyles();
   return (
-    // <div className={classes.root}>
-    <AppBar position="static">
-      <Toolbar className="Navbar" style={{ minHeight: 40 }}>
-        <Typography variant="h6" className={classes.title}>Dan Tracy</Typography>
-        <div className="navbar-btns">
-          <div>
-            <Button variant="contained" component={AdapterLink} to="/">
-              Home
+    <div className={classes.root}>
+      <AppBar position="static">
+        <Toolbar className="Navbar" style={{ minHeight: 40 }}>
+          <Typography style={{ font: "Oxygen", color: 'black' }} className={classes.title}>Dan Tracy</Typography>
+          <div className="navbar-btns">
+            <div>
+              <Button component={AdapterLink} to="/">
+                Home
               </Button>
-          </div>
-          <div>
-            <Button variant="contained" component={AdapterLink} to="/projects">
-              Projects
+            </div>
+            <div>
+              <Button component={AdapterLink} to="/projects">
+                Projects
               </Button>
-          </div>
-          <div>
-            <Button variant="contained" component={AdapterLink} to="/bio">
-              Bio
+            </div>
+            <div>
+              <Button component={AdapterLink} to="/bio">
+                Bio
               </Button>
+            </div>
           </div>
-        </div>
-      </Toolbar>
-    </AppBar>
-    // </div >
+        </Toolbar>
+      </AppBar>
+    </div >
   )
 }
