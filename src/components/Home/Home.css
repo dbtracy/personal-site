@@ -1,10 +1,14 @@
 .dan-basic-info {
   padding-top: 4%;
-  background-color: antiquewhite;
+  background-color: #f5f8fa;
   padding-bottom: 3%
 }
 
 .headshot {
   border-radius: 50%;
   height: 150px;
+}
+
+.about-and-social {
+  display: flex
 }
