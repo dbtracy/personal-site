@@ -1,20 +1,13 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import './Navbar.css'
+import logo from './dantracylogo.png'
 
 // MATERIAL-UI IMPORTS
-import { AppBar, Toolbar, makeStyles, Button, Typography } from '@material-ui/core/'
+import { AppBar, Toolbar, makeStyles, Button, } from '@material-ui/core/'
 
 const useStyles = makeStyles(theme => ({
   root: {
-    // flexGrow: 1
-  },
-  menuButton: {
-    marginRight: theme.spacing(2)
-  },
-  title: {
-    display: "flex",
-    justifyContent: "left",
     flexGrow: 1
   }
 }))
@@ -29,7 +22,8 @@ export default function Navbar() {
     <div className={classes.root}>
       <AppBar position="static">
         <Toolbar className="Navbar" style={{ minHeight: 40 }}>
-          <Typography style={{ font: "Oxygen", color: 'black' }} className={classes.title}>Dan Tracy</Typography>
+          <img className="navbar-logo" src={logo} alt="logo" />
+          <div className="navbar-spacer" />
           <div className="navbar-btns">
             <div>
               <Button component={AdapterLink} to="/">
@@ -49,7 +43,7 @@ export default function Navbar() {
           </div>
         </Toolbar>
       </AppBar>
-      <p style={{ backgroundColor: "#f5f8fa", padding: 0 }}></p>
+      <p className="navbar-bottom-spacer" />
     </div >
   )
 }

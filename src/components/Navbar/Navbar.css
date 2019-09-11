@@ -5,11 +5,23 @@
   font-family: 'Titillium';
   border-bottom: 0em;
   border-bottom-color: black;
+  display: flex
+}
+
+.navbar-logo {
+  height: 40px;
+  width: 70px;
+  padding: 7px 0 5px 0
+}
+
+.navbar-spacer {
+  flex-grow: 1
 }
 
 .navbar-btns {
   display: flex;
-  justify-content: space-between;
+  justify-content: right;
+  text-align: right
 }
 
 .navbar-btns div {
@@ -18,4 +30,9 @@
 
 .navbar-underline {
   display: none
+}
+
+.navbar-bottom-spacer {
+  background-color: #f5f8fa;
+  padding: 0
 }
