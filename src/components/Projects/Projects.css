@@ -1,0 +1,22 @@
+.project-list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.spec-project {
+  width: 500px;
+}
+
+.pic-vc {
+  height: 200px;
+  width: auto;
+}
+
+.tech-used {
+  text-align: start;
+}
+
+.tech-list {
+  text-align: start;
+}
