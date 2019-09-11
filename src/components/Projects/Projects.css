@@ -11,11 +11,21 @@
   border: 1px solid black;
   border-radius: 5px;
   box-shadow: 2px 2px gray;
+  text-decoration: none;
+}
+
+.spec-project:visited {
+  color: black
 }
 
 .pic-vc {
-  height: 200px;
+  height: 315px;
   width: auto;
+}
+
+.vid-gf {
+  height: 315px;
+  width: 420px;
 }
 
 .project-desc {

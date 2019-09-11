@@ -13,7 +13,7 @@ export default function AboutMe() {
           I spent the last decade as a professional actor and musician and I'm proud of my accomplishments, but with the world in such a state of climatic upheaval, I saw the tech world as an up-to-date and imminently actionable way of more directly impacting life on our planet. I'd love to be a part of the solution!
         </p>
         <p>
-          I am a full stack software developer proficient in the NERDS stack (Node, Express, React, Database: Postgres, Sequelize), as well as Redux for my React state management. I am also currently exploring React Native, D3, and ArcGIS.
+          I am a full stack software developer proficient in the NERDS stack (Node, Express, React, Database: Postgres, Sequelize). Other technologies include Redux, React Native, Heroku, D3, Mapbox, and ArcGIS.
         </p>
       </div>
       <hr />
@@ -21,15 +21,15 @@ export default function AboutMe() {
         <h3>Contact Me:</h3>
         <div className="social-media-links">
           <a className="social-link" href="https://www.linkedin.com/in/dan-tracy/">
-            <i className="fa fa-linkedin-square" aria-hidden="true" style={{ paddingRight: '5px' }}></i>
+            <i className="fa fa-linkedin-square" aria-hidden="true"></i>
             <p>LinkedIn</p>
           </a>
-          <a className="social-link" href="https://www.linkedin.com/in/dan-tracy/">
-            <i className="fa fa-github" aria-hidden="true" style={{ paddingRight: '5px' }}></i>
+          <a className="social-link" href="https://github.com/dbtracy">
+            <i className="fa fa-github" aria-hidden="true" ></i>
             <p>Github</p>
           </a>
-          <a className="social-link" href="https://www.linkedin.com/in/dan-tracy/">
-            <i className="fa fa-envelope" aria-hidden="true" style={{ paddingRight: '5px' }}></i>
+          <a className="social-link" href="mailto:daniel.benjamin.tracy@gmail.com?subject=What a phenomenal developer you are; I would LOVE to hire you!">
+            <i className="fa fa-envelope" aria-hidden="true"></i>
             <p>Email</p>
           </a>
         </div>

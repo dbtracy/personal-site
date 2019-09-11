@@ -7,7 +7,7 @@ export default function Projects() {
     <div>
       <h1>Check out my projects!</h1>
       <div className="project-list">
-        <div className="spec-project">
+        <a className="spec-project" href="https://dbtracy-visualclimate.herokuapp.com">
           <h1>VisualClimate</h1>
           <img className="pic-vc" src={visualClimate} alt="visual-climate-screenshot" />
           <hr />
@@ -22,9 +22,19 @@ export default function Projects() {
             <li>Firebase</li>
             <li>Material UI</li>
           </ul>
-        </div>
+        </a>
         <div className="spec-project">
-          {/* <h1>project 2</h1> */}
+          <h1>groundFound</h1>
+          <iframe className="vid-gf" title="groundfound" src="https://www.youtube.com/embed/2FBVvXbtBZE" frameborder="0" allowfullscreen></iframe>
+          <hr />
+          <p className="project-desc">
+            A fun little self-guided intro to mobile development, via React Native.
+          </p>
+          <p className="tech-used">Technologies used:</p>
+          <ul className="tech-list">
+            <li>React Native</li>
+            <li>Firebase</li>
+          </ul>
         </div>
         {/* <div className="spec-project">
           <h1>project 3</h1>

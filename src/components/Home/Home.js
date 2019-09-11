@@ -11,7 +11,7 @@ export default function Home() {
           <img className="headshot" src={pic} alt="dt-pic" />
         </div>
         <h1>Dan Tracy</h1>
-        <div>
+        <div className="home-desc">
           <p>Full stack web developer</p>
           <p>Musician</p>
           <p>Tree-hugger</p>

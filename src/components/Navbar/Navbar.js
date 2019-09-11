@@ -16,13 +16,13 @@ const AdapterLink = React.forwardRef((props, ref) => (
   <Link innerRef={ref} {...props} />
 ))
 
-export default function Navbar() {
+export default function Navbar(props) {
   const classes = useStyles();
   return (
     <div className={classes.root}>
       <AppBar position="static">
         <Toolbar className="Navbar" style={{ minHeight: 40 }}>
-          <img className="navbar-logo" src={logo} alt="logo" />
+          <img className="navbar-logo" src={logo} alt="logo" component={AdapterLink} to="/" />
           <div className="navbar-spacer" />
           <div className="navbar-btns">
             <div>
@@ -35,11 +35,11 @@ export default function Navbar() {
                 Projects
               </Button>
             </div>
-            <div>
+            {/* <div>
               <Button component={AdapterLink} to="/bio">
                 Bio
               </Button>
-            </div>
+            </div> */}
           </div>
         </Toolbar>
       </AppBar>
