@@ -19,16 +19,16 @@ export default function AboutMe() {
       <div className="social-media">
         <h3>Contact Me:</h3>
         <div className="social-media-links">
-          <a href="https://www.linkedin.com/in/dan-tracy/" style={{ display: 'flex' }}>
-            <i className="fa fa-linkedin-square" aria-hidden="true" style={{ marginTop: "16px", paddingRight: '5px' }}></i>
+          <a className="social-link" href="https://www.linkedin.com/in/dan-tracy/">
+            <i className="fa fa-linkedin-square" aria-hidden="true" style={{ paddingRight: '5px' }}></i>
             <p>LinkedIn</p>
           </a>
-          <a href="https://www.linkedin.com/in/dan-tracy/" style={{ display: 'flex' }}>
-            <i className="fa fa-github" aria-hidden="true" style={{ marginTop: "16px", paddingRight: '5px' }}></i>
+          <a className="social-link" href="https://www.linkedin.com/in/dan-tracy/">
+            <i className="fa fa-github" aria-hidden="true" style={{ paddingRight: '5px' }}></i>
             <p>Github</p>
           </a>
-          <a href="https://www.linkedin.com/in/dan-tracy/" style={{ display: 'flex' }}>
-            <i className="fa fa-envelope" aria-hidden="true" style={{ marginTop: "16px", paddingRight: '5px' }}></i>
+          <a className="social-link" href="https://www.linkedin.com/in/dan-tracy/">
+            <i className="fa fa-envelope" aria-hidden="true" style={{ paddingRight: '5px' }}></i>
             <p>Email</p>
           </a>
         </div>

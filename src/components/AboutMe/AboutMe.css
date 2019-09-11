@@ -20,5 +20,24 @@
 .social-media-links {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
+  text-decoration: none;
+}
+
+.social-link {
+
+  width: 100px;
+  margin: 1px;
+  position: relative;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+}
+
+.social-link:hover {
+  border-radius: 7px;
+  background-color: #f5f8fa
 }
