@@ -3,8 +3,14 @@ import ReactDOM from 'react-dom';
 import { BrowserRouter } from 'react-router-dom'
 import './index.css';
 import App from './App';
-import 'typeface-roboto'
+import WebFont from 'webfontloader';
 import * as serviceWorker from './serviceWorker';
+
+WebFont.load({
+  google: {
+    families: ['Titillium Web:300,400,700', 'sans-serif']
+  }
+})
 
 ReactDOM.render(
   <BrowserRouter>

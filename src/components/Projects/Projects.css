@@ -5,12 +5,20 @@
 }
 
 .spec-project {
-  width: 500px;
+  width: 600px;
+  background-color: white;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
 }
 
 .pic-vc {
   height: 200px;
   width: auto;
+}
+
+.project-desc {
+  text-align: start;
 }
 
 .tech-used {
