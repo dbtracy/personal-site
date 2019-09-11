@@ -28,7 +28,7 @@ export default function Projects() {
           <iframe className="vid-gf" title="groundfound" src="https://www.youtube.com/embed/2FBVvXbtBZE" frameborder="0" allowfullscreen></iframe>
           <hr />
           <p className="project-desc">
-            A fun little self-guided intro to mobile development, via React Native.
+            A fun little self-guided intro to mobile development, via React Native. I pick up change from the ground, so of course I needed to turn that into a mobile app.
           </p>
           <p className="tech-used">Technologies used:</p>
           <ul className="tech-list">
