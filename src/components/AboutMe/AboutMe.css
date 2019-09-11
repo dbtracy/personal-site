@@ -1,6 +1,7 @@
 .about-and-social {
   display: flex;
-  justify-content: space-between
+  justify-content: space-between;
+  background-color: white
 }
 
 .about-me {

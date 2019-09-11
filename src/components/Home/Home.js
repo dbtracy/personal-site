@@ -7,9 +7,11 @@ export default function Home() {
   return (
     <div>
       <div className="dan-basic-info">
+        {/* <div> */}
         <div className="headshot-border">
           <img className="headshot" src={pic} alt="dt-pic" />
         </div>
+        {/* </div> */}
         <h1>Dan Tracy</h1>
         <div>
           <p>Full stack web developer</p>

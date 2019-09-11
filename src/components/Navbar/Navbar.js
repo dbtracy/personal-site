@@ -7,7 +7,7 @@ import { AppBar, Toolbar, makeStyles, Button, Typography } from '@material-ui/co
 
 const useStyles = makeStyles(theme => ({
   root: {
-    flexGrow: 1
+    // flexGrow: 1
   },
   menuButton: {
     marginRight: theme.spacing(2)
@@ -49,6 +49,7 @@ export default function Navbar() {
           </div>
         </Toolbar>
       </AppBar>
+      <p style={{ backgroundColor: "#f5f8fa", padding: 0 }}></p>
     </div >
   )
 }
