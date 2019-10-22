@@ -35,11 +35,11 @@ export default function Navbar(props) {
                 Projects
               </Button>
             </div>
-            {/* <div>
-              <Button component={AdapterLink} to="/bio">
-                Bio
+            <div>
+              <Button component={AdapterLink} to="/writing">
+                Writing
               </Button>
-            </div> */}
+            </div>
           </div>
         </Toolbar>
       </AppBar>

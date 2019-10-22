@@ -28,6 +28,10 @@ export default function AboutMe() {
             <i className="fa fa-github" aria-hidden="true" ></i>
             <p>Github</p>
           </a>
+          <a className="social-link" href="https://medium.com/@daniel.benjamin.tracy">
+            <i className="fa fa-medium" aria-hidden="true" ></i>
+            <p>Medium</p>
+          </a>
           <a className="social-link" href="mailto:daniel.benjamin.tracy@gmail.com?subject=What a phenomenal developer you are; I would LOVE to hire you!">
             <i className="fa fa-envelope" aria-hidden="true"></i>
             <p>Email</p>

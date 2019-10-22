@@ -3,7 +3,7 @@ import { Route, Switch, Redirect } from 'react-router-dom'
 
 import Home from './Home/Home'
 import Projects from './Projects/Projects'
-import Bio from './Bio'
+import Writing from './Writing/Writing'
 
 export default class Routes extends Component {
   render() {
@@ -11,7 +11,7 @@ export default class Routes extends Component {
       <Switch>
         <Route exact path="/" component={Home} />
         <Route path="/projects" component={Projects} />
-        <Route path="/bio" component={Bio} />
+        <Route path="/writing" component={Writing} />
         <Redirect to="/" />
       </Switch>
     )
