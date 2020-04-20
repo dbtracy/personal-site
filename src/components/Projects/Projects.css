@@ -2,16 +2,22 @@
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  margin-bottom: 5%;
 }
 
 .spec-project {
   width: 600px;
   background-color: white;
+  margin-top: 3%;
   padding: 20px;
-  border: 1px solid black;
-  border-radius: 5px;
-  box-shadow: 2px 2px gray;
+  border: 1px solid lightgrey;
   text-decoration: none;
+  transition: border 0.2s linear;
+}
+
+.spec-project:hover {
+  border: 1px solid darkseagreen;
+
 }
 
 .spec-project:visited {
@@ -20,7 +26,11 @@
 
 .pic-vc {
   height: 315px;
-  width: auto;
+  width: initial;
+}
+
+.ptc {
+  width: inherit;
 }
 
 .vid-gf {

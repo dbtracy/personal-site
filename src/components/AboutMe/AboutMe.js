@@ -13,7 +13,7 @@ export default function AboutMe() {
           I spent the last decade as a professional actor and musician and I'm proud of my accomplishments, but with the world in such a state of climatic upheaval, I saw the tech world as an up-to-date and imminently actionable way of more directly impacting life on our planet. I'd love to be a part of the solution!
         </p>
         <p>
-          I am a full stack software developer proficient in the NERDS stack (Node, Express, React, Database: Postgres, Sequelize). Other technologies include Redux, React Native, Heroku, D3, Mapbox, and ArcGIS.
+          I am a full stack software developer proficient in the NERDS stack (Node, Express, React, Database: Postgres, Sequelize). Other technologies include Redux, React Native, PHP, Heroku, D3, Mapbox, and ArcGIS.
         </p>
       </div>
       <hr />
