@@ -40,6 +40,11 @@ export default function Navbar(props) {
                 Writing
               </Button>
             </div>
+            <div>
+              <Button component={AdapterLink} to="/resume">
+                Resume
+              </Button>
+            </div>
           </div>
         </Toolbar>
       </AppBar>
