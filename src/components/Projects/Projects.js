@@ -19,7 +19,7 @@ export default function Projects() {
           <p className="tech-used">Technologies used:</p>
           <ul className="tech-list">
             <li>JavaScript</li>
-            <li>HML</li>
+            <li>HTML</li>
             <li>CSS</li>
             <li>PHP</li>
             <li>MAMP server</li>
