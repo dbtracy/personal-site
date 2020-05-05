@@ -3,6 +3,7 @@ import './Projects.css'
 import visualClimate from './images/visualclimate.png'
 import ptc from './images/ptc_homepage.png'
 import biddingGame from './images/bidding_game_homepage.png'
+import homepage from './images/homepage.png'
 
 export default function Projects() {
   return (
@@ -73,6 +74,23 @@ export default function Projects() {
             <li>Sequelize</li>
           </ul>
         </div>
+        <a className="spec-project" href="http://dan-tracy.herokuapp.com/">
+          <h1>An Exercise in Recursion</h1>
+          <img className="pic-vc" src={homepage} alt="home-screenshot" />
+          <hr />
+          <p className="project-desc">
+            Some ongoing practice in recursion.
+          </p>
+          <p className="tech-used">Technologies used:</p>
+          <ul className="tech-list">
+            <li>JavaScript</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>React</li>
+            <li>Heroku</li>
+            <li>Recursion</li>
+          </ul>
+        </a>
         {/* <div className="spec-project">
           <h1>project 3</h1>
         </div>
